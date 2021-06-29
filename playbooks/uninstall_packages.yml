@@ -1,0 +1,12 @@
+- hosts: my_servers
+  gather_facts: no
+  tasks:
+    - name: install packages
+      ansible.builtin.apt:
+        name: "{{ item }}"
+        state: absent
+      loop:
+        - redis-server
+        - postgresql
+        - git
+      become: yes

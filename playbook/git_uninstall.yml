@@ -1,8 +1,0 @@
-- hosts: my_servers
-  
-  tasks:
-    - name: uninstall git
-      ansible.builtin.apt:
-        name: git
-        state: absent
-      become: yes
