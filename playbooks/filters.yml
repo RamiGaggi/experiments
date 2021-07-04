@@ -1,0 +1,10 @@
+- hosts: all
+  gather_facts: no
+  vars:
+    numbers: [3, 2, 1, 3, 2]
+    path: /var/log/upstart/nginx.log
+  tasks:
+    - name: get min number
+      ansible.builtin.debug: msg={{ numbers | min }}
+    - name: get max number
+      ansible.builtin.debug: msg={{ numbers | max }}

@@ -1,0 +1,10 @@
+- hosts: all
+  gather_facts: no
+  tasks:
+    - ansible.builtin.command: 'false'
+      register: result
+      ignore_errors: yes
+    - ansible.builtin.command: echo 'ehu'
+      when: not result.failed
+    - ansible.builtin.command: uptime
+      when: result.failed
