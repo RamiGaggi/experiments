@@ -1,5 +1,7 @@
 # Experiments
 
+All in one: trying new technologies, drafts for projects, useful utilities, etc.
+
 ## Сontents
 
 - [Ansible](https://github.com/RamiGaggi/experiments/tree/main/try-ansible)
