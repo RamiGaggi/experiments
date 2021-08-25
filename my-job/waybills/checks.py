@@ -37,7 +37,7 @@ def check_waybills(path_to_file, check_value=None, check_quantity=None):
                 after = float(parse_line[1].replace(',', '.'))
                 change = round(after - before, 3)
                 print(
-                    f'{last_data} C {before} НА {after} \t Разница: {change}'
+                    f'{last_data} C {before} НА {after} \t\t\t Разница: {change}'
                 )
                 #  Проверка на последовательное изменение значений.
                 if check_value is not None:
