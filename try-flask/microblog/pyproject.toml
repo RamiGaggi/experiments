@@ -8,6 +8,9 @@ authors = ["Ramil Gadzhiev <rami.gaggi@gmail.com>"]
 python = "^3.9"
 Flask = "^2.0.1"
 python-dotenv = "^0.19.0"
+Flask-WTF = "^0.15.1"
+Flask-SQLAlchemy = "^2.5.1"
+Flask-Migrate = "^3.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
