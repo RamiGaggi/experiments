@@ -21,11 +21,11 @@ def check_waybills(path_to_file, check_value=None, check_quantity=None):
                 print(f"\n{count_waybills})", "№ ПЛ", waybill)
                 waybills.append(waybill)
                 #  Проверка на порядок путевых листов.
-                if len(waybills) > 1:
-                    assert int(waybills[-1]) > int(
-                        waybills[-2]
-                    ), f"Не по порядку! ПЛ {waybills[-1]} \
-                        Должен быть раньше {waybills[-2]}"
+                # if len(waybills) > 1:
+                #     assert int(waybills[-1]) > int(
+                #         waybills[-2]
+                #     ), f"Не по порядку! ПЛ {waybills[-1]} \
+                #         Должен быть раньше {waybills[-2]}"
             elif "выезд," in parse_line:
                 last_data = "Выезд                "
             elif "фактический," in parse_line:

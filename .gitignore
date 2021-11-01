@@ -130,3 +130,24 @@ dmypy.json
 
 #  Misc files
 misc/
+
+# JS NODE
+# Dependency directories
+node_modules/
+jspm_packages/
+
+
+# RUBY
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+# rspec failure tracking
+.rspec_status
+
+.vscode
