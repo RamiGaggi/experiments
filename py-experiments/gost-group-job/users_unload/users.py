@@ -11,8 +11,8 @@ parser = argparse.ArgumentParser()
 PSD_CREDITNAILS = os.getenv("PSD_CREDITNAILS")
 ETS_CREDITNAILS = os.getenv("ETS_CREDITNAILS")
 START1 = "2019-12-31"
-START2 = "2021-09-01"
-END = "2021-09-30"
+START2 = "2021-10-01"
+END = "2021-10-31"
 
 
 psd_all_active_users = """ SELECT COUNT(*)
