@@ -1,3 +1,2 @@
 ---
-BUNDLE_BUILD__RAILS: "--no-ri --no-rdoc"
 BUNDLE_PATH: ".bundle"
