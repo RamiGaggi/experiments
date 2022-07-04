@@ -1,7 +1,7 @@
 const createPrinter = () => {
   const name = 'King';
 
-  const printName = () => {
+  const ramil = () => {
     console.log(name);
   };
 
